@@ -9,3 +9,7 @@ void display();
 
 int items[SIZE], front = -1, rear = -1;
 
+int main() {
+
+}
+
