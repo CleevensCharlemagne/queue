@@ -20,5 +20,10 @@ int main() {
   enQueue(4);
   enQueue(5);
 
+  // 6th element can't be added to because the queue is full
+  enQueue(6);
+
+  display();
+
 
 }
