@@ -64,7 +64,8 @@ void display() {
   else {
     int i;
     printf("\nQueue elements are:\n");
-
+    for (i = front; i <= rear; i++)
+      printf("%d  ", items[i]);
   }
   printf("\n");
 }
