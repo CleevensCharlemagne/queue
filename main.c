@@ -61,5 +61,10 @@ void deQueue() {
 void display() {
   if (rear == -1)
     printf("\nQueue is Empty!!!");
+  else {
+    int i;
+    printf("\nQueue elements are:\n");
+
+  }
 
 }
