@@ -52,7 +52,8 @@ void deQueue() {
   else {
     printf("\nDeleted : %d", items[front]);
     front++;
-
+    if (front > rear)
+      front = rear = -1;
   }
 }
 
