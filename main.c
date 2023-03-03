@@ -25,5 +25,14 @@ int main() {
 
   display();
 
+  //deQueue removes element entered first i.e. 1
+  deQueue();
 
+  //Now we have just 4 elements
+  display();
+
+  return 0;
 }
+
+
+
