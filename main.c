@@ -57,3 +57,9 @@ void deQueue() {
   }
 }
 
+// Function to print the queue
+void display() {
+  if (rear == -1)
+    printf("\nQueue is Empty!!!");
+
+}
