@@ -66,5 +66,5 @@ void display() {
     printf("\nQueue elements are:\n");
 
   }
-
+  printf("\n");
 }
