@@ -13,8 +13,12 @@ int main() {
   //deQueue is not possible on empty queue
   deQueue();
 
+  //enQueue 5 elements
+  enQueue(1);
+  enQueue(2);
+  enQueue(3);
+  enQueue(4);
+  enQueue(5);
 
 
-  return 0;
 }
-
